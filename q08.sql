@@ -4,4 +4,4 @@
 ## (columna c23) que este ordenada por año. 
 ##
 
-
+SELECT SUBSTR(C23,1,4) as YEAR, avg(c21) FROM tbl2 GROUP BY SUBSTR(C23,1,4) ORDER BY SUBSTR(C23,1,4)

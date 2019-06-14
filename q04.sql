@@ -4,4 +4,4 @@
 ## columna c16 empieza por la misma letra de la columna K0
 ## 
 
-
+SELECT k0, c16 FROM tbl1 WHERE SUBSTR(k0,1,1) = SUBSTR(c16,1,1)
